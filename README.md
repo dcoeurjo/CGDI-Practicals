@@ -1,1 +1,1 @@
-# CDGI-Practicals
+# CGDI-Practicals

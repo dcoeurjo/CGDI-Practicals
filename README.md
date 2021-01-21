@@ -4,4 +4,4 @@
 
 ## Practicals
 
-1. [Color Transfer via Discrete Optimal Transport using the sliced approach](https://codimd.math.cnrs.fr/s/2eRBqV9zl)
+1. [Color Transfer via Discrete Optimal Transport using the sliced approach](https://codimd.math.cnrs.fr/s/s_rh7X9wF), [Material](https://github.com/dcoeurjo/CGDI-Practicals/tree/main/1-SlicedOptimalTransport)

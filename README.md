@@ -6,3 +6,4 @@
 
 1. Color Transfer via Discrete Optimal Transport using the sliced
    approach: [[Note]](https://codimd.math.cnrs.fr/s/s_rh7X9wF), [[Code]](https://github.com/dcoeurjo/CGDI-Practicals/tree/main/1-SlicedOptimalTransport)
+2. Rasterization, z-Buffer and Winding Numbers: [[Note]](https://codimd.math.cnrs.fr/s/1L-PBLbFW)

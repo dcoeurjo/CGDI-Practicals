@@ -1,3 +1,3 @@
-[submodule "3-Modeling/c++/deps/polyscope"]
-	path = 3-Modeling/c++/deps/polyscope
+[submodule "3-modeling/c++/deps/polyscope"]
+	path = 3-modeling/c++/deps/polyscope
 	url = https://github.com/nmwsharp/polyscope.git

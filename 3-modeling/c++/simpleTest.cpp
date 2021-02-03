@@ -1,11 +1,8 @@
-#include <iostream>
 #include <vector>
-#include <string>
-#include <fstream>
-#include <set>
-#include "polyscope/polyscope.h"
-#include "polyscope/point_cloud.h"
-#include "polyscope/surface_mesh.h"
+#include <array>
+#include <polyscope/polyscope.h>
+#include <polyscope/point_cloud.h>
+#include <polyscope/surface_mesh.h>
 
 int main(int argc, char **argv)
 {

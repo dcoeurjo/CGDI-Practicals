@@ -56,15 +56,16 @@ endif()
 
 
 # == Deps
+add_subdirectory(deps/geometry-central)
 add_subdirectory(deps/polyscope)
 
 # == Build our project stuff
 
-set(SRCS
-  simpleTest.cpp
-	# add any other source files here
-)
 
-# To change the name of your executable, change "gc_project" in the lines below to whatever you want
-add_executable(simpleTest "${SRCS}")
+
+add_executable(simpleTest simpleTest)
 target_link_libraries(simpleTest polyscope)
+
+add_executable(displayOBJ displayOBJ)
+target_link_libraries(displayOBJ polyscope geometry-central)
+

@@ -2,5 +2,5 @@
 	path = 3-modeling/c++/deps/polyscope
 	url = https://github.com/nmwsharp/polyscope.git
 [submodule "3-Modeling/c++/deps/geometry-central"]
-	path = 3-Modeling/c++/deps/geometry-central
+	path = 3-modeling/c++/deps/geometry-central
 	url = https://github.com/nmwsharp/geometry-central.git

@@ -4,3 +4,9 @@
 [submodule "3-Modeling/c++/deps/geometry-central"]
 	path = 3-modeling/c++/deps/geometry-central
 	url = https://github.com/nmwsharp/geometry-central.git
+[submodule "4-LaplacianSmoothing/c++/deps/polyscope"]
+	path = 4-LaplacianSmoothing/c++/deps/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
+[submodule "4-LaplacianSmoothing/c++/deps/geometry-central"]
+	path = 4-LaplacianSmoothing/c++/deps/geometry-central
+	url = https://github.com/nmwsharp/geometry-central.git

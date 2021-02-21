@@ -4,6 +4,7 @@
 
 #include "polyscope/polyscope.h"
 #include "polyscope/surface_mesh.h"
+#include "polyscope/point_cloud.h"
 
 using namespace geometrycentral;
 using namespace geometrycentral::surface;

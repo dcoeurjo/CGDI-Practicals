@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(CGDI)
+project(CGDI-4)
 
 
 # Print the build type

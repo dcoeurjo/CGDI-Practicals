@@ -14,7 +14,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="tutte.svg">
+   sodipodi:docname="tutte.svg"
+   inkscape:export-filename="/Users/davidcoeurjolly/Cours/ENS-2020-M1/CGDI-Practicals/4-LaplacianSmoothing/tutte.png"
+   inkscape:export-xdpi="200.20909"
+   inkscape:export-ydpi="200.20909">
   <defs
      id="defs2">
     <linearGradient
@@ -48,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6028334"
-     inkscape:cx="363.48014"
-     inkscape:cy="135.99451"
+     inkscape:zoom="1.9292389"
+     inkscape:cx="320.07442"
+     inkscape:cy="111.00396"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -59,10 +62,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1680"
-     inkscape:window-height="1050"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1434"
+     inkscape:window-height="847"
+     inkscape:window-x="68"
+     inkscape:window-y="25"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -81,6 +84,34 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-12.363822,-119.1302)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 157.59921,146.97041 2.00907,27.95422"
+       id="path925" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 137.32353,129.03454 10.81275,13.27298 -19.56158,3.56439"
+       id="path915" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 158.94799,121.77136 -10.81171,20.53616 9.46293,4.66289 v 0 z"
+       id="path917" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 157.59921,146.97041 9.18864,4.52575 10.31809,-17.01424 z"
+       id="path919" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 166.78785,151.49616 11.80374,8.73703"
+       id="path921" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 159.60828,174.92463 7.17957,-23.42847"
+       id="path923" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 148.13628,142.30752 -11.80319,25.02378 21.26612,-20.36089"
+       id="path927" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 128.5747,145.87191 7.75839,21.45939 23.27519,7.59333 18.98331,-14.69144 -1.48565,-25.75127 -18.15795,-12.71056 -21.62446,7.26318 z"
@@ -143,5 +174,18 @@
          cy="88.109505"
          r="1.6913184" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.716943,149.39565 24.553246,-14.72558 32.283704,-2.66289"
+       id="path909"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 49.051066,147.05989 1.843119,-9.83532 18.659707,-5.21739"
+       id="path911" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 100.17837,157.96012 84.741298,147.86832 92.911544,126.038 67.07268,144.46232 57.615538,177.68436 84.954174,148.08119 67.07268,144.24944 50.894185,137.22457 37.270189,134.67007 44.120006,119.29023"
+       id="path913" />
   </g>
 </svg>

@@ -16,32 +16,32 @@
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
    sodipodi:docname="tutte.svg"
    inkscape:export-filename="/Users/davidcoeurjolly/Cours/ENS-2020-M1/CGDI-Practicals/4-LaplacianSmoothing/tutte.png"
-   inkscape:export-xdpi="200.20909"
-   inkscape:export-ydpi="200.20909">
+   inkscape:export-xdpi="199.89999"
+   inkscape:export-ydpi="199.89999">
   <defs
      id="defs2">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient841">
+       id="linearGradient994">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:#39dd18;stop-opacity:1;"
          offset="0"
-         id="stop837" />
+         id="stop990" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:#39dd18;stop-opacity:0;"
          offset="1"
-         id="stop839" />
+         id="stop992" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient841"
-       id="radialGradient843"
-       cx="46.752026"
-       cy="93.0056"
-       fx="46.752026"
-       fy="93.0056"
-       r="43.961792"
-       gradientTransform="matrix(1.6493876,0.42505367,-0.16669456,0.64684527,-12.557616,67.027536)"
+       xlink:href="#linearGradient994"
+       id="radialGradient998"
+       cx="28.57843"
+       cy="155.46481"
+       fx="28.57843"
+       fy="155.46481"
+       r="43.98365"
+       gradientTransform="matrix(1.8250598,-0.00264197,0.00107716,0.74410184,-23.268965,36.459593)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -52,7 +52,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9292389"
-     inkscape:cx="320.07442"
+     inkscape:cx="220.29413"
      inkscape:cy="111.00396"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -117,7 +117,7 @@
        d="m 128.5747,145.87191 7.75839,21.45939 23.27519,7.59333 18.98331,-14.69144 -1.48565,-25.75127 -18.15795,-12.71056 -21.62446,7.26318 z"
        id="path907" />
     <path
-       style="fill:url(#radialGradient843);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:url(#radialGradient998);fill-opacity:1;stroke:#000000;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 12.716943,149.39565 36.334122,-2.33576 8.564474,30.62447 42.562831,-19.72424 -7.266825,-31.92212 -23.357652,5.96918 -25.433887,-12.71695 z"
        id="path835"
        sodipodi:nodetypes="cccccccc" />

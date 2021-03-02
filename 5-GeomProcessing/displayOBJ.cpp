@@ -27,6 +27,9 @@ int main(int argc, char **argv) {
                                  mesh->getFaceVertexList(),
                                  polyscopePermutations(*mesh));
   
+  
+  
+  
   // Give control to the polyscope gui
   polyscope::show();
 

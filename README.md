@@ -12,3 +12,4 @@
    [[Note]](https://codimd.math.cnrs.fr/s/97oyynV5t), [[Code]](https://github.com/dcoeurjo/CGDI-Practicals/tree/main/4-LaplacianSmoothing)
 5. Geometry Processing: Discrete Differential Operators on Meshes and Dirichlet Problems [[Note]](https://codimd.math.cnrs.fr/s/QMfjkgib2), [[Code]](https://github.com/dcoeurjo/CGDI-Practicals/tree/main/5-GeomProcessing)
 6. Monte Carlo Geometry Processing [[Note]](https://codimd.math.cnrs.fr/s/b5SRBDUf0), [[Code]](https://github.com/dcoeurjo/CGDI-Practicals/tree/main/6-MonteCarloGeometryProcessing)
+7. kd-Tree and MC Geometry Processing -bis-  [[Note]](https://codimd.math.cnrs.fr/s/TSPaU97gu)

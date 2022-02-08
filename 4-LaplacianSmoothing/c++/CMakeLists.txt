@@ -32,7 +32,7 @@ if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang" OR "${CMAKE_CXX_COMPILER_ID}" STR
   endif()
 
   SET(CMAKE_CXX_FLAGS "${BASE_CXX_FLAGS} ${DISABLED_WARNINGS}")
-  SET(CMAKE_CXX_FLAGS_RELEASE        "-O3 -march=native -DNDEBUG")
+  SET(CMAKE_CXX_FLAGS_RELEASE        "-O3 -DNDEBUG")
 
 elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
   # using Visual Studio C++
@@ -64,4 +64,3 @@ add_subdirectory(deps/polyscope)
 
 add_executable(displayOBJ displayOBJ)
 target_link_libraries(displayOBJ polyscope geometry-central)
-

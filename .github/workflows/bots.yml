@@ -27,7 +27,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: macos
       if: matrix.os == 'macOS-latest'
-      run: brew install libomp eigen
+      run: echo "Nothing to install"
 
     - name: linux
       if: matrix.os == 'ubuntu-latest'

@@ -1,4 +1,5 @@
 # CGDI-Practicals
+[![c++/cmake](https://github.com/dcoeurjo/CGDI-Practicals/actions/workflows/bots.yml/badge.svg)](https://github.com/dcoeurjo/CGDI-Practicals/actions/workflows/bots.yml)
 
 [Main website for the CGDI Lecture](https://perso.liris.cnrs.fr/vincent.nivoliers/cgdi/)
 

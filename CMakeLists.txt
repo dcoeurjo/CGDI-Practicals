@@ -13,6 +13,7 @@ message(STATUS "Deps: ${PROJECT_SOURCE_DIR}/deps")
 ############################################################
 #Image processing
 add_subdirectory(image-processing/1-SlicedOptimalTransport/c++/)
+add_subdirectory(image-processing/2-BilateralFilter/c++/)
 add_subdirectory(image-processing/3-Rasterization/c++/)
 ############################################################
 

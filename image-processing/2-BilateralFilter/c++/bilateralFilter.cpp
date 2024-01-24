@@ -47,12 +47,13 @@ int main(int argc, char **argv)
   CLI::App app{"colorTransfer"};
   std::string sourceImage;
   app.add_option("-s,--source", sourceImage, "Source image")->required()->check(CLI::ExistingFile);;
-  std::string targetImage;
-  app.add_option("-t,--target", targetImage, "Target image")->required()->check(CLI::ExistingFile);;
   std::string outputImage= "output.png";
   app.add_option("-o,--output", outputImage, "Output image")->required();
-  unsigned int nbSteps = 3;
-  app.add_option("-n,--nbsteps", nbSteps, "Number of sliced steps (3)");
+  double sigmaSpatial = 3.0;
+  app.add_option("--sigmaSpatial", sigmaSpatial, "Variance of the Gaussian spatial filter.");
+  double sigmaValues = 15.0;
+  app.add_option("--sigmaValues", sigmaValues, "Variance of the Gaussian value filter.");
+  
   silent = false;
   app.add_flag("--silent", silent, "No verbose messages");
   CLI11_PARSE(app, argc, argv);
@@ -61,19 +62,7 @@ int main(int argc, char **argv)
   int width,height, nbChannels;
   unsigned char *source = stbi_load(sourceImage.c_str(), &width, &height, &nbChannels, 0);
   if (!silent) std::cout<< "Source image: "<<width<<"x"<<height<<"   ("<<nbChannels<<")"<< std::endl;
-  int width_target,height_target, nbChannels_target;
-  unsigned char *target = stbi_load(targetImage.c_str(), &width_target, &height_target, &nbChannels_target, 0);
-  if (!silent) std::cout<< "Target image: "<<width_target<<"x"<<height_target<<"   ("<<nbChannels_target<<")"<< std::endl;
-  if ((width*height) != (width_target*height_target))
-  {
-    std::cout<< "Image sizes do not match. "<<std::endl;
-    exit(1);
-  }
-  if (nbChannels < 3)
-  {
-    std::cout<< "Input images must be RGB images."<<std::endl;
-    exit(1);
-  }
+  
    
   //Main computation
   std::vector<unsigned char> output(width*height*nbChannels);
@@ -107,6 +96,5 @@ int main(int argc, char **argv)
   }
   
   stbi_image_free(source);
-  stbi_image_free(target);
   exit(0);
 }

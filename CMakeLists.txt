@@ -17,16 +17,16 @@ add_subdirectory(image-processing/2-BilateralFilter/c++/)
 add_subdirectory(image-processing/3-Rasterization/c++/)
 ############################################################
 
-
+# Disabling 3D for now
 
 ############################################################
 #Geometry processing
 
-include(geometry-central)
-include(polyscope)
+#include(geometry-central)
+#include(polyscope)
 
-add_subdirectory(geometry-processing/4-modeling/c++/)
-add_subdirectory(geometry-processing/5-LaplacianSmoothing/c++/)
-add_subdirectory(geometry-processing/6-GeomProcessing/c++)
-add_subdirectory(geometry-processing/7-MonteCarloGeometryProcessing/c++)
+#add_subdirectory(geometry-processing/4-modeling/c++/)
+#add_subdirectory(geometry-processing/5-LaplacianSmoothing/c++/)
+#add_subdirectory(geometry-processing/6-GeomProcessing/c++)
+#add_subdirectory(geometry-processing/7-MonteCarloGeometryProcessing/c++)
 ############################################################

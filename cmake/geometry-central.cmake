@@ -2,13 +2,10 @@ if (TARGET geometry-central)
   return()
 endif()
 
-include(FetchContent)
+include(CPM)
 
-message(STATUS "Fetching geometry-central")
-
-FetchContent_Declare(
-    geometry-central
-    GIT_REPOSITORY https://github.com/nmwsharp/geometry-central.git
-    GIT_SHALLOW    TRUE
-    )
-FetchContent_MakeAvailable(geometry-central)
+CPMAddPackage(
+  NAME geometry-central
+  GIT_TAG 70c859ec3b58fe597c0063673a74082654e9c5aa
+  GITHUB_REPOSITORY "nmwsharp/geometry-central"
+)

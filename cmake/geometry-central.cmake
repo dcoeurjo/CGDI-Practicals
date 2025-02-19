@@ -6,6 +6,6 @@ include(CPM)
 
 CPMAddPackage(
   NAME geometry-central
-  GIT_TAG 70c859ec3b58fe597c0063673a74082654e9c5aa
+  GIT_TAG 1f8a50c353e90322294c1c5aa0d411b7894f24ed
   GITHUB_REPOSITORY "nmwsharp/geometry-central"
 )

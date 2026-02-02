@@ -20,7 +20,7 @@ int main(int argc, char **argv)
   app.add_option("-o,--output", outputImage, "Output image")->required();
 
   CLI11_PARSE(app, argc, argv);
-  
+
   //Image loading
   int width=640,height=480, nbChannels=3;
   std::vector<unsigned char> output(width*height*nbChannels);
@@ -40,7 +40,7 @@ int main(int argc, char **argv)
       output[ indexPixel + 2 ] = r;
     }
   }
-  
+
   //Final export
   std::cout<<"Exporting.."<<std::endl;
   int errcode = stbi_write_png(outputImage.c_str(), width, height, nbChannels, output.data(), nbChannels*width);
@@ -49,6 +49,6 @@ int main(int argc, char **argv)
     std::cout<<"Error while exporting the resulting image."<<std::endl;
     exit(errcode);
   }
-  
+
   exit(0);
 }

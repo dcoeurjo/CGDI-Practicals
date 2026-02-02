@@ -1,7 +1,7 @@
 set(EXAMPLES
   colorTransfer
 )
-  
+
 foreach(EXAMPLE ${EXAMPLES})
     add_executable(${EXAMPLE} ${EXAMPLE}.cpp)
     if(UNIX)

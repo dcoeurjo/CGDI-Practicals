@@ -17,4 +17,3 @@ polyscope.register_point_cloud("My Points", pts)
 polyscope.get_point_cloud("My Points").add_scalar_quantity("Some values",val)
 
 polyscope.show()
-

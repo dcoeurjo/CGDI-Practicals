@@ -1,17 +1,17 @@
 /*
  Copyright (c) 2020 CNRS
  All rights reserved.
- 
+
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
- 
+
  1. Redistributions of source code must retain the above copyright notice, this
  list of conditions and the following disclaimer.
- 
+
  2. Redistributions in binary form must reproduce the above copyright notice,
  this list of conditions and the following disclaimer in the documentation
  and/or other materials provided with the distribution.
- 
+
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIEDi
  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -56,7 +56,7 @@ int main(int argc, char **argv)
   silent = false;
   app.add_flag("--silent", silent, "No verbose messages");
   CLI11_PARSE(app, argc, argv);
-  
+
   //Image loading
   int width,height, nbChannels;
   unsigned char *source = stbi_load(sourceImage.c_str(), &width, &height, &nbChannels, 0);
@@ -74,10 +74,10 @@ int main(int argc, char **argv)
     std::cout<< "Input images must be RGB images."<<std::endl;
     exit(1);
   }
-   
+
   //Main computation
   std::vector<unsigned char> output(width*height*nbChannels);
-  
+
   //As an example, we just scan the pixels of the source image
   //and swap the color channels.
   for(auto i = 0 ; i < width ; ++i)
@@ -96,7 +96,7 @@ int main(int argc, char **argv)
         output[ indexPixel + 3] = source[ indexPixel + 3];
     }
   }
-  
+
   //Final export
   if (!silent) std::cout<<"Exporting.."<<std::endl;
   int errcode = stbi_write_png(outputImage.c_str(), width, height, nbChannels, output.data(), nbChannels*width);
@@ -105,7 +105,7 @@ int main(int argc, char **argv)
     std::cout<<"Error while exporting the resulting image."<<std::endl;
     exit(errcode);
   }
-  
+
   stbi_image_free(source);
   stbi_image_free(target);
   exit(0);

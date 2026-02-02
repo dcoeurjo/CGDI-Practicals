@@ -28,7 +28,7 @@ void myCallback()
 {
   if (ImGui::Button("Go!"))
     go= !go;
-  
+
   if (go)
   {
     oneStep();
@@ -53,13 +53,13 @@ int main(int argc, char **argv) {
                                  geometry->inputVertexPositions,
                                  mesh->getFaceVertexList(),
                                  polyscopePermutations(*mesh));
-  
-  
+
+
   geometry->requireVertexPositions();
- 
+
   // Specify the callback
   polyscope::state::userCallback = myCallback;
-  
+
   // Give control to the polyscope gui
   polyscope::show();
   return EXIT_SUCCESS;

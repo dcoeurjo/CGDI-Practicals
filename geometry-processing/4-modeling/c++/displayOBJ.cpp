@@ -27,8 +27,8 @@ int main(int argc, char **argv) {
   } catch (const CLI::ParseError &e) {
     return app.exit(e);
   }
-   
-  
+
+
   // Initialize polyscope
   polyscope::init();
 
@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
                                  geometry->inputVertexPositions,
                                  mesh->getFaceVertexList(),
                                  polyscopePermutations(*mesh));
-  
+
   // Give control to the polyscope gui
   polyscope::show();
 

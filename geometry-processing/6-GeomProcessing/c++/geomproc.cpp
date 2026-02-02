@@ -26,10 +26,10 @@ int main(int argc, char **argv) {
                                  geometry->inputVertexPositions,
                                  mesh->getFaceVertexList(),
                                  polyscopePermutations(*mesh));
-  
-  
-  
-  
+
+
+
+
   // Give control to the polyscope gui
   polyscope::show();
 

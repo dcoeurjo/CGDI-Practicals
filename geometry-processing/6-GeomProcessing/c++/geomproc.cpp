@@ -2,6 +2,9 @@
 #include "geometrycentral/surface/meshio.h"
 #include "geometrycentral/surface/vertex_position_geometry.h"
 
+#include "geometrycentral/numerical/linear_solvers.h"
+
+
 #include "polyscope/polyscope.h"
 #include "polyscope/surface_mesh.h"
 #include "polyscope/point_cloud.h"
@@ -22,14 +25,12 @@ int main(int argc, char **argv) {
   std::tie(mesh, geometry) = readManifoldSurfaceMesh(argv[1]);
 
   // Register the mesh with polyscope
-  polyscope::registerSurfaceMesh("Input obj",
+  auto ps = polyscope::registerSurfaceMesh("Input obj",
                                  geometry->inputVertexPositions,
                                  mesh->getFaceVertexList(),
                                  polyscopePermutations(*mesh));
 
-
-
-
+  
   // Give control to the polyscope gui
   polyscope::show();
 

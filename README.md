@@ -13,3 +13,4 @@
 6. Geometry Processing: Discrete Differential Operators on Meshes and Dirichlet Problems [[Note]](https://codimd.math.cnrs.fr/s/QMfjkgib2)
 7. Monte Carlo Geometry Processing [[Note]](https://codimd.math.cnrs.fr/s/b5SRBDUf0)
 8. kd-Tree and MC Geometry Processing -bis-  [[Note]](https://codimd.math.cnrs.fr/s/TSPaU97gu)
+9. Jump Flooding Algorithm [[Note]](https://codimd.math.cnrs.fr/s/wU4lFFTxZ)
